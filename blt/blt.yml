@@ -15,7 +15,7 @@ project:
   machine_name: washco
   # Used for enforcing correct git commit msg syntax.
   prefix: BLT
-  human_name: 'BLTed 10'
+  human_name: 'Washington County D8'
   profile:
     name: lightning
   # This will be used as the local uri for all developers.
@@ -26,6 +26,8 @@ project:
 git:
   default_branch: master
   remotes: {  }
+  hooks:
+    commit-msg: false
 deploy:
   # When manually deploying a tag, also tag the source repository.
   tag_source: true

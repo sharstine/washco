@@ -12,6 +12,7 @@
         "acquia/memcache-settings": "*",
         "drupal/acquia_connector": "^1.5.0",
         "drupal/acquia_purge": "^1.0-beta3",
+        "drupal/admin_toolbar": "^1.27",
         "drupal/cog": "^1.0.0",
         "drupal/config_split": "^1.0.0",
         "drupal/core-recommended": "^8.8.0",
@@ -23,7 +24,9 @@
     },
     "require-dev": {
         "acquia/blt-require-dev": "11.x-dev",
-        "geerlingguy/drupal-vm": "^4.8"
+        "geerlingguy/drupal-vm": "~5.0",
+        "drupal/config_devel": "1.x-dev",
+        "drupal/devel": "^2.0"
     },
     "config": {
         "platform": {
